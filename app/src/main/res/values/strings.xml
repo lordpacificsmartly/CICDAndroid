@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">CICDDroid</string>
+
+    <string name="welcome_message">Hello, </string>
+    <string name="hello_ci_cd_world">Hello CI/CD World!</string>
+    <string name="write_your_name">Write your name</string>
+    <string name="say_hello">SAY HELLO!</string>
 </resources>
