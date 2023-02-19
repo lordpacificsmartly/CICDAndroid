@@ -3,6 +3,6 @@
 
     <string name="welcome_message">Hello, </string>
     <string name="hello_ci_cd_world">Hello CI/CD World!</string>
-    <string name="write_your_name">Write your name</string>
+    <string name="monthly_savings">Monthly savings</string>
     <string name="say_hello">SAY HELLO!</string>
 </resources>

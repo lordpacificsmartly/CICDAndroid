@@ -17,19 +17,79 @@
         app:layout_constraintTop_toBottomOf="@+id/helloBUtton" />
 
     <EditText
-        android:id="@+id/nameTextView"
+        android:id="@+id/monthlyTextView"
         android:layout_width="378dp"
         android:layout_height="46dp"
         android:ems="10"
         android:autofillHints="name"
         android:inputType="textPersonName"
-        android:hint="@string/write_your_name"
+        android:hint="@string/monthly_savings"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:id="@+id/interestTextView"
+        android:layout_width="378dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:autofillHints="name"
+        android:inputType="textPersonName"
+        android:hint="Interest rate"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/monthlyTextView"/>
+
+    <EditText
+        android:id="@+id/ageTextView"
+        android:layout_width="378dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:autofillHints="name"
+        android:inputType="textPersonName"
+        android:hint="Your current age"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/interestTextView"/>
+
+    <EditText
+        android:id="@+id/plannedTextView"
+        android:layout_width="378dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:autofillHints="name"
+        android:inputType="textPersonName"
+        android:hint="Planned retirement age"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ageTextView"/>
+
+    <EditText
+        android:id="@+id/savingsTextView"
+        android:layout_width="378dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:autofillHints="name"
+        android:inputType="textPersonName"
+        android:hint="Current savings"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/plannedTextView"/>
 
     <Button
         android:id="@+id/helloBUtton"
@@ -39,6 +99,6 @@
         android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nameTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/savingsTextView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

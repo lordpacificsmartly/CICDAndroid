@@ -16,11 +16,11 @@ class MainActivity : AppCompatActivity() {
 
         AppCenter.start(application, "491c7c6a-fc98-4b51-b808-8a0fc9a667ca", Analytics::class.java, Crashes::class.java)
 
-        val nameEditText = findViewById<EditText>(R.id.nameTextView)
+        val nameEditText = findViewById<EditText>(R.id.monthlyTextView)
         val greetingTextView = findViewById<TextView>(R.id.greetingTextView)
         val helloButton = findViewById<Button>(R.id.helloBUtton)
         helloButton.setOnClickListener{
-            "Hello${nameEditText.text}".also { greetingTextView.text = it }
+            throw Exception("Something wrong happened!")
         }
     }
 }
